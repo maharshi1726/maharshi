@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamics Login</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <a href="index.html" style="text-decoration: none;"><h2>Dynamics Login</h2></a>
+            <form id="loginForm">
+                <div class="user-box">
+                    <input type="text" name="username" id="username" required>
+                    <label for="username">Username</label>
+                </div>
+                <div class="user-box">
+                    <input type="password" name="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="user-box">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember" class="remember-label">Remember Me</label>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <div class="links">
+                <a href="#">Forgot your password?</a>
+                <a href="#">Create an account</a>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
